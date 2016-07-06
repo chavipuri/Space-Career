@@ -1,0 +1,16 @@
+
+INSERT INTO `EQUIFAX`.`CAREER` (`CAREER_ID`, `CAREER`) VALUES ('1', 'DUDE, JUST BE A PILOT');
+INSERT INTO `EQUIFAX`.`CAREER` (`CAREER_ID`, `CAREER`) VALUES ('2', 'ASTRONAUT');
+INSERT INTO `EQUIFAX`.`CAREER` (`CAREER_ID`, `CAREER`) VALUES ('3', 'SETI RESEARCHER');
+INSERT INTO `EQUIFAX`.`CAREER` (`CAREER_ID`, `CAREER`) VALUES ('4', 'SCI-FI WRITER');
+INSERT INTO `EQUIFAX`.`CAREER` (`CAREER_ID`, `CAREER`) VALUES ('5', 'GIVE UP THE DREAM!');
+
+
+INSERT INTO `EQUIFAX`.`QUESTION` (`QUESTION_ID`, `Q_TEXT`, `QUES_Y`, `QUES_N`,`CAREER_ID`) VALUES ('7', 'You have reached the end. Type yes to continue', NULL, NULL, '4');
+INSERT INTO `EQUIFAX`.`QUESTION` (`QUESTION_ID`, `Q_TEXT`, `QUES_Y`, `QUES_N`,`CAREER_ID`) VALUES ('6', 'Are you really just in it to meet aliens?', NULL, '7','3');
+INSERT INTO `EQUIFAX`.`QUESTION` (`QUESTION_ID`, `Q_TEXT`, `QUES_Y`, `QUES_N`,`CAREER_ID`) VALUES ('5', 'Do you speak Russian?', NULL, '6','2');
+INSERT INTO `EQUIFAX`.`QUESTION` (`QUESTION_ID`, `Q_TEXT`, `QUES_Y`, `QUES_N`,`CAREER_ID`) VALUES ('2', 'Can You Fly a Plane?', NULL, '5', '1');
+INSERT INTO `EQUIFAX`.`QUESTION` (`QUESTION_ID`, `Q_TEXT`, `QUES_Y`, `QUES_N`,`CAREER_ID`) VALUES ('4', 'Can you withstand long hours staring at a computer screen?', '6', '2', NULL);
+INSERT INTO `EQUIFAX`.`QUESTION` (`QUESTION_ID`, `Q_TEXT`, `QUES_Y`, `QUES_N`,`CAREER_ID`) VALUES ('3', 'Does you favorite movie have STAR in the title?', '4', NULL,'5');
+INSERT INTO `EQUIFAX`.`QUESTION` (`QUESTION_ID`, `Q_TEXT`, `QUES_Y`, `QUES_N`,`CAREER_ID`) VALUES ('1', 'Do you have a degree in Science or Engineering?', '2', '3', NULL);
+

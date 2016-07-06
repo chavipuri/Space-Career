@@ -1,0 +1,8 @@
+QUESTION_ID,Q_TEXT,QUES_Y,QUES_N,CAREER_ID
+1,"Do you have a degree in Science or Engineering?",2,3,NULL
+2,"Can You Fly a Plane?",NULL,5,1
+3,"Does you favorite movie have STAR in the title?",4,NULL,5
+4,"Can you withstand long hours staring at a computer screen?",6,2,NULL
+5,"Do you speak Russian?",NULL,6,2
+6,"Are you really just in it to meet aliens?",NULL,7,3
+7,"You have reached the end. Type yes to continue",NULL,NULL,4
